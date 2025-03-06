@@ -1,0 +1,27 @@
+.wrapper{
+    width: 100%;
+    height:80px;
+    border-bottom:1px solid var(--border-color);
+    padding: 2rem;
+    box-sizing: border-box;
+    border-color: gray;
+    background-color: #11B981;
+
+
+
+.logo{
+    height:100%;
+    object-fit:contain ;
+    margin-right:auto;
+    height:2rem;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 300;
+    color:black;
+    &.acitve{
+        font-weight: 900;
+    }
+}
+}
